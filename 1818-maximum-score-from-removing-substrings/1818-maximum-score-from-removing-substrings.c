@@ -1,15 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 typedef struct {
     int top;
     int base;
     int limit;
-    char ch[100001];
+    char ch[100000];
 } stack_t;
 
-stack_t *reset() {
+stack_t *resetStack() {
     stack_t *stack = (stack_t *)malloc(sizeof(stack_t));
-    
     stack->top = 0;
-    stack->limit = 100001;
+    stack->limit = 100000;
     stack->base = 0;
     return stack;
 }
@@ -22,47 +25,84 @@ void push(stack_t *stack, char ch) {
 }
 
 char pop(stack_t *stack) {
-    if (stack->top != 0) {
+    if (stack->top > 0) {
         stack->top--;
-        return stack->ch[stack->top + 1];
+        return stack->ch[stack->top];
     }
     return '\0';
 }
 
-int removePair(char *s, char c1, char c2, int value, char *s2) {
-    stack_t *stack =  reset();
+int case1(char *s, int x, int y) {
     int points = 0;
     int len = strlen(s);
+    stack_t *stack1 = resetStack();
+    stack_t *stack2 = resetStack();
 
-    for (int i = 0; i < len; i++) {
-        if (stack->top != 0 && stack->ch[stack->top - 1] == c1 && s[i] == c2) {
-            pop(stack); // remove a letra empilhada na it anterior
-            points += value;
+    for (int i = 0; i < len; i++) {                     //remove ab
+        if (stack1->top > 0 && stack1->ch[stack1->top - 1] == 'a' && s[i] == 'b') {
+            pop(stack1);
+            points += x;
         } else {
-            push(stack, s[i]);
+            push(stack1, s[i]);
         }
     }
-    push(stack, '\0'); //\0 para funcionar o strcpy
 
-    strcpy(s2, stack->ch); //coloca o resultado no formato de string
+    while (stack1->top > 0) {                           //remove ba
+        char ch = pop(stack1);
+        if (stack2->top > 0 && ch == 'b' && stack2->ch[stack2->top - 1] == 'a') {
+            pop(stack2);
+            points += y;
+        } else {
+            push(stack2, ch);
+        }
+    }
 
-    free(stack);
+    free(stack1);
+    free(stack2);
+
+    return points;
+}
+
+int case2(char *s, int x, int y) {
+    int points = 0;
+    int len = strlen(s);
+    stack_t *stack1 = resetStack();
+    stack_t *stack2 = resetStack();
+    char last = '\0';
+
+
+    for (int i = 0; i < len; i++) {             //remove ba
+        if (stack1->top > 0 && stack1->ch[stack1->top - 1] == 'b' && s[i] == 'a') {
+            pop(stack1);
+            points += y;
+        } else {
+            push(stack1, s[i]);
+        }
+    }
+
+    while (stack1->top > 0) {                   //remove ab
+        char ch = pop(stack1);
+        if (stack2->top > 0 && ch == 'a' && stack2->ch[stack2->top - 1] == 'b') {
+            pop(stack2);
+            points += x;
+        } else {
+            push(stack2, ch);
+        }
+    }
+
+    // Liberação de memória
+    free(stack1);
+    free(stack2);
+
     return points;
 }
 
 int maximumGain(char *s, int x, int y) {
-    int points = 0;
-    int len = strlen(s);
-    char *s2 = (char *)malloc(sizeof(char) * len + 1);
-    
+    int points;
     if (x > y) {
-        points += removePair(s, 'a', 'b', x, s2);
-        points += removePair(s2, 'b', 'a', y, s);
+        points = case1(s, x, y);
     } else {
-        points += removePair(s, 'b', 'a', y, s2);
-        points += removePair(s2, 'a', 'b', x, s);
+        points = case2(s, x, y);
     }
-
-    free(s2);
     return points;
 }
