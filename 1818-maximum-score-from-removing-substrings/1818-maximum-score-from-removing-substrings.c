@@ -90,7 +90,6 @@ int case2(char *s, int x, int y) {
         }
     }
 
-    // Liberação de memória
     free(stack1);
     free(stack2);
 
