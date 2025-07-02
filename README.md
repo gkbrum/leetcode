@@ -19,9 +19,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/gkbrum/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/gkbrum/leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Greedy
 |  |
 | ------- |
 | [1818-maximum-score-from-removing-substrings](https://github.com/gkbrum/leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/gkbrum/leetcode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/gkbrum/leetcode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
