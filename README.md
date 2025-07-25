@@ -14,11 +14,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/gkbrum/leetcode/tree/master/0020-valid-parentheses) |
 | [0749-shortest-completing-word](https://github.com/gkbrum/leetcode/tree/master/0749-shortest-completing-word) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/gkbrum/leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/gkbrum/leetcode/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/gkbrum/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/gkbrum/leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Greedy
