@@ -5,8 +5,8 @@
  *     struct ListNode *next;
  * };
  */
-
 typedef struct ListNode node;
+
 
 node *merge(node *left, node *right){
     node dummy;
@@ -67,3 +67,5 @@ struct ListNode* sortList(struct ListNode* head) {
     return merge(sortedLeft, sortedRight);
 
 }
+
+
