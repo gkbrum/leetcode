@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/gkbrum/leetcode/tree/master/0088-merge-sorted-array) |
 | [0749-shortest-completing-word](https://github.com/gkbrum/leetcode/tree/master/0749-shortest-completing-word) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/gkbrum/leetcode/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Hash Table
@@ -94,10 +95,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/gkbrum/leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/gkbrum/leetcode/tree/master/0148-sort-list) |
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/gkbrum/leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/gkbrum/leetcode/tree/master/0148-sort-list) |
 ## Merge Sort
 |  |
