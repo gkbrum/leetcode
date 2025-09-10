@@ -1,4 +1,4 @@
-#define MAX 1000
+#define MAX 200
 
 typedef struct {
     int limit;
