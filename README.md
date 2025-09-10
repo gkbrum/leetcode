@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/gkbrum/leetcode/tree/master/0020-valid-parentheses) |
 | [0749-shortest-completing-word](https://github.com/gkbrum/leetcode/tree/master/0749-shortest-completing-word) |
+| [0874-backspace-string-compare](https://github.com/gkbrum/leetcode/tree/master/0874-backspace-string-compare) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/gkbrum/leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
 |  |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/gkbrum/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/gkbrum/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/gkbrum/leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0874-backspace-string-compare](https://github.com/gkbrum/leetcode/tree/master/0874-backspace-string-compare) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/gkbrum/leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Greedy
 |  |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/gkbrum/leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/gkbrum/leetcode/tree/master/0148-sort-list) |
+| [0874-backspace-string-compare](https://github.com/gkbrum/leetcode/tree/master/0874-backspace-string-compare) |
 ## Sorting
 |  |
 | ------- |
@@ -111,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/gkbrum/leetcode/tree/master/0021-merge-two-sorted-lists) |
+## Simulation
+|  |
+| ------- |
+| [0874-backspace-string-compare](https://github.com/gkbrum/leetcode/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
