@@ -6,12 +6,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/gkbrum/leetcode/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/gkbrum/leetcode/tree/master/0088-merge-sorted-array) |
 | [0749-shortest-completing-word](https://github.com/gkbrum/leetcode/tree/master/0749-shortest-completing-word) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/gkbrum/leetcode/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/gkbrum/leetcode/tree/master/0001-two-sum) |
 | [0749-shortest-completing-word](https://github.com/gkbrum/leetcode/tree/master/0749-shortest-completing-word) |
 ## String
 |  |
